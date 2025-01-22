@@ -1,42 +1,37 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fffbe7; /* Light yellow for a cooking vibe */
+  overflow: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.chat-header {
+  background-color: #ff7043; /* Warm orange */
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.css-send-button {
+  background-color: #ff7043;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.css-send-button:hover {
+  background-color: #e64a19;
 }
