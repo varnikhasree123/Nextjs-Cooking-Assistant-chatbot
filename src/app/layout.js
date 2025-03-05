@@ -12,13 +12,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'Credit Card Advisor Chatbot',
-  description: 'An AI-based Credit Card Advisor chatbot',
+  title: 'Disability Employment Assistant',
+  description: 'An AI-powered platform assisting differently-abled individuals with job opportunities, skill development, and workplace inclusivity.',
   icons: {
     icon: '/favicon.ico',
   },
 };
-
 
 export default function RootLayout({ children }) {
   return (
@@ -29,3 +28,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
