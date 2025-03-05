@@ -10,13 +10,13 @@
   border-radius: 12px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  backdrop-filter: blur(10px);
   overflow: hidden;
 }
 
 /* Chat Header */
 .chat-header {
-  background: linear-gradient(to right, #4f1641, #7b1fa2); /* CogniCraft Branding */
+  background: linear-gradient(to right, #4f1641, #7b1fa2); 
   color: white;
   font-size: 20px;
   text-align: center;
@@ -34,7 +34,7 @@
 
 /* Send Button */
 .css-send-button {
-  background: #4f1641; /* CogniCraft Primary Color */
+  background: #4f1641;
   border: none;
   color: white;
   padding: 10px 15px;
