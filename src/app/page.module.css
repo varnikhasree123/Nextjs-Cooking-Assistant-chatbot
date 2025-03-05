@@ -1,12 +1,11 @@
 @media (max-width: 768px) {
-    .chat-container {
-      width: 90%;
-      height: 80%;
-      border-radius: 5px;
-    }
-  
-    .chat-header {
-      font-size: 18px;
-    }
+  .chat-container {
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
   }
-  
+
+  .chat-header {
+    font-size: 18px;
+  }
+}
