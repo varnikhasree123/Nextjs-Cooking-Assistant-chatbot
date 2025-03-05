@@ -27,19 +27,18 @@ class ActionProvider {
       this.createCustomMessage = createCustomMessage
     }
 
-    callGenAI = async (prompt) => {
+ callGenAI = async (prompt) => {
         const chatCompletion = await openAI.chat.completions.create({
-          model: "gpt-3.5-turbo",
-          messages: [
-            { role: "system", content: "You are a professional Cooking Assistant. Provide clear and friendly advice about recipes, ingredients, and cooking techniques." },
-            { role: "user", content: prompt }
-          ],
-          temperature: 0.7,
-          max_tokens: 100
+            model: "gpt-3.5-turbo",
+            messages: [
+                { role: "system", content: "You are Cognicraft AI, a chatbot assisting people with disabilities in employment, skill-building, and awareness about their rights. Provide precise, helpful responses." },
+                { role: "user", content: prompt }
+            ],
+            temperature: 0.7,
+            max_tokens: 200
         });
         return chatCompletion.choices[0].message.content;
-      };
-      
+    };
 
     timer = ms => new Promise(res => setTimeout(res, ms));
     
