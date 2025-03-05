@@ -1,9 +1,9 @@
 import { createChatBotMessage } from "react-chatbot-kit";
 
 const config = {
-  botName: "Cooking Assistant",
+  botName: "Disability Employment Assistant",
   initialMessages: [
-    createChatBotMessage("Hi there! I'm your Cooking Assistant. Ask me anything about recipes, ingredients, or techniques!"),
+    createChatBotMessage("Hello! 👋 I’m here to support you in finding job opportunities, analysing your resume, and understanding workplace accommodations.How can I assist you today? 😊"),
   ],
 };
 
@@ -11,4 +11,3 @@ export default config;
 
 
 
-// bot Avatar
